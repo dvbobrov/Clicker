@@ -10,4 +10,4 @@ To build server, execute `./gradlew build` (or `gradlew.bat build` for Windows) 
 The resulting jar will be in build/libs directory. Use `java -jar Server.jar [port] [max clients]` to run server and follow the instructions.
 
 To build APK, execute `./gradlew build`  (or `gradlew.bat build` for Windows) in Android directory. You'll need JDK 6+ and Android SDK.
-Copy app/build/apk/app-release-undigned.apk to your device and install it.
+Copy `app/build/apk/app-release-unsigned.apk` to your device and install it.
